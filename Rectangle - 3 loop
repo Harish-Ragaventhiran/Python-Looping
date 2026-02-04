@@ -1,0 +1,7 @@
+a = int(input())
+b = int(input())
+
+for count in range (1, a+1):
+    char = str(count)
+    row = (char + " ") * b
+    print(row)

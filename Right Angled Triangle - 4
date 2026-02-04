@@ -1,0 +1,8 @@
+stars = int(input())
+
+for i in range (1, stars+1):
+    row = "* " * i
+    print(row)
+for j in range (1, stars+1):
+    row = "* " * j
+    print(row)

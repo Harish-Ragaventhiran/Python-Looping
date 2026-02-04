@@ -1,0 +1,13 @@
+n = int(input())
+
+for i in range (n):
+    char = str(i+1)
+    row = char *(i+1)
+    print(row)
+for j in range (n):
+    char = str(j+1)
+    row = char *(j+1)
+    print(row)
+    
+    
+    

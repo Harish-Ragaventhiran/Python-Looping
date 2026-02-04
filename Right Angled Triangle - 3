@@ -1,0 +1,9 @@
+n = int(input())
+length = n
+count = 1
+
+while  count < n:
+    print("* " * count)
+    count = count + 1
+print("+ " * length)
+    

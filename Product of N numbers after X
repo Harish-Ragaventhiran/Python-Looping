@@ -1,0 +1,8 @@
+x = int(input())
+n = int(input())
+
+product = 1
+for num in range (x+1, x + n + 1):
+    product *= num
+print(product)
+    

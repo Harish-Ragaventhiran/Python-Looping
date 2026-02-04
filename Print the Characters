@@ -1,0 +1,9 @@
+string = input()
+length = len(string)
+count = 0
+
+
+while count < length:
+    char = string[count]
+    print(char)
+    count = count + 1

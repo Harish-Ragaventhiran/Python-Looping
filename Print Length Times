@@ -1,0 +1,8 @@
+word = input()
+length = len(word)
+first = word[0]
+
+count = 0
+while count < length:
+    print(first)
+    count = count + 1

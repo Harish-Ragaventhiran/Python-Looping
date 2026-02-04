@@ -1,0 +1,9 @@
+n = int(input())
+num = 1
+count = 0
+
+while (count < n):
+    number = int(input())
+    num = num * number
+    count = count + 1
+print(num)

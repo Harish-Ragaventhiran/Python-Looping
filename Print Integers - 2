@@ -1,0 +1,7 @@
+a = int(input())
+b = int(input())
+
+count = a
+while count <= b:
+    print(count)
+    count = count + 1

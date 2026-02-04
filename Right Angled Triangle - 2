@@ -1,0 +1,7 @@
+n = int(input())
+count = 1
+
+while count <= n:
+    row = (str(count) + " ") * count
+    print(row)
+    count = count + 1
